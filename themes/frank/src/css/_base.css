@@ -8,17 +8,25 @@
   box-sizing: border-box;
 }
 
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
 body,
 html {
   margin: 0;
   padding: 0;
+  
 }
 
 body {
   font-family: var(--font-family);
   font-size: 16px;
   letter-spacing: 0.015rem;
-  color: var(--gray)
+  color: var(--gray);
+   -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
 }
 
 /*
