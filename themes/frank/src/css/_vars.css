@@ -7,9 +7,9 @@
  * Fonts
  */
 
-  --font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir, helvetica, "helvetica neue", ubuntu, roboto,
+  --font-family:  helvetica, "helvetica neue", "arial", ubuntu, roboto,
     noto, "segoe ui", arial, sans-serif;
-  --font-family-heading: -apple-system, BlinkMacSystemFont, "avenir next", avenir, helvetica, "helvetica neue", ubuntu,
+  --font-family-heading: helvetica, "helvetica neue", "arial", ubuntu,
     roboto, noto, "segoe ui", arial, sans-serif;
   --font-family-serif: initial;
 

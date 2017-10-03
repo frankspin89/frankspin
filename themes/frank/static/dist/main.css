@@ -34,7 +34,7 @@ html {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir, helvetica, "helvetica neue", ubuntu, roboto,
+  font-family: helvetica, "helvetica neue", "arial", ubuntu, roboto,
     noto, "segoe ui", arial, sans-serif;
   font-size: 16px;
   letter-spacing: 0.015rem;
@@ -53,7 +53,7 @@ h5 {
   font-weight: 500;
   margin: 0 0 1rem 0;
   line-height: 1.5rem;
-  font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir, helvetica, "helvetica neue", ubuntu,
+  font-family: helvetica, "helvetica neue", "arial", ubuntu,
     roboto, noto, "segoe ui", arial, sans-serif;
 }
 
@@ -197,7 +197,7 @@ img {
  */
 
 .sanserif {
-  font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir, helvetica, "helvetica neue", ubuntu, roboto,
+  font-family: helvetica, "helvetica neue", "arial", ubuntu, roboto,
     noto, "segoe ui", arial, sans-serif;
 }
 
