@@ -1,0 +1,12 @@
+baseURL = "https://www.frankspin.nl"
+languageCode = "nl-nl"
+title = "Frank Spin"
+theme = "frankspin"
+
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "nl"
+SectionPagesMenu = "main"
+googleAnalytics = ""
+enableRobotsTXT = true
+background_color_class = "white"
