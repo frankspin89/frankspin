@@ -1,0 +1,28 @@
+<header class="gray layout p3-lr">
+  {{ partial "site-navigation.html" .}}
+  <div class="m6-b">
+    <h1 class="f-headline l-headline m6-b">
+      {{ .Params.headline | default .Site.Title | markdownify }}
+    </h1>
+    <div class="grid-1-3">
+      <div class="m3-b">
+        <p class="f4">{{ .Description | markdownify }}</p>
+      </div>
+      <div class="m3-b">
+        <h4 class="f5 ttu">Waar ik je mee kan helpen</h4>
+        <nav class="f3 red serif no-wrap">
+          <ul class="list-h m0 p0 wrap">
+            <li class="m1-r m1-b"><a href="#">Interfaces ontwerpen</a>,</li>
+            <li class="m1-r m1-b"><a href="#">Websites bouwen</a>,</li>
+            <li class="m1-r m1-b"><a href="#">Web apps ontwikkelen</a>,</li>
+            <li class="m1-r m1-b"><a href="#">Front-end ondersteuning</a>,</li>
+            <li class="m1-r m1-b"><a href="#">Website analyses</a>, </li>
+            <li class="m1-r m1-b"><a href="#">Optimalisaties</a>, </li>
+            <li class="m1-r m1-b"><a href="#">CMS implementaties</a>,</li>
+            <li class="m1-r m1-b"><a href="#">React ondersteuning</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>

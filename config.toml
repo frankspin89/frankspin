@@ -1,7 +1,7 @@
 baseURL = "https://www.frankspin.nl"
 languageCode = "nl-nl"
 title = "Frank Spin"
-theme = "frankspin"
+theme = "frank"
 
 
 MetaDataFormat = "yaml"

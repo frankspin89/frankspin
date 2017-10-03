@@ -1,0 +1,8 @@
+<header class="gray layout p3-lr">
+  {{ partial "site-navigation.html" .}}
+  <div class="m10-b">
+    <h1 class="f-headline l-headline m6-b">
+      {{ .Title | default .Site.Title | markdownify }}
+    </h1>
+  </div>
+</header>

@@ -1,0 +1,75 @@
+{{ define "header" }}
+  {{ partial "home-header.html" . }}
+{{ end }}
+
+{{ define "main" }}
+<article>
+  <div class="layout layout-over p3-lr m6-b">
+    <div class="grid-thirds">
+      <a href="#" class="m6-b block item no-underline gray hover-effect">
+        <img 
+          class="m2-b" src="/images/clients/payt-fcgroningen.jpg" 
+          srcset="/images/clients/payt-fcgroningen@2x.jpg 2x"
+          alt="Front-end ondersteuning en CMS implementatie Payt.nl">
+        <span class="p1-lr block clearfix">
+          <h4 class="m025-b f3 red">Payt</h4>
+          <p>Front-end ondersteuning en CMS implementatie</p>
+        </span>
+      </a>
+      <a href="#" class="m6-b block item no-underline gray hover-effect">
+        <img class="m2-b" 
+          src="/images/clients/pixformance.jpg" 
+          srcset="/images/clients/pixformance@2x.jpg 2x"
+          alt="Front-end ondersteuning en CMS implementatie Pixformance.com">
+        <span class="p1-lr block clearfix">
+          <h4 class="m025-b f3 red">Pixformance</h4>
+          <p>Front-end ondersteuning en CMS implementatie</p>
+        </span>
+      </a>
+      <a href="#" class="m6-b block item no-underline gray hover-effect">
+        <img class="m2-b" 
+          src="/images/clients/houseofworkouts.jpg" 
+          srcset="/images/clients/houseofworkouts@2x.jpg 2x"
+          alt="Design en Front-end ondersteuning Houseofworkouts.com"
+        >
+        <span class="p1-lr block clearfix">
+          <h4 class="m025-b f3 red">House of Workouts</h4>
+          <p>Design en Front-end ondersteuning</p>
+        </span>
+      </a>
+      <a href="#" class="m3-b block item no-underline gray hover-effect">
+        <img class="m2-b" 
+        src="/images/clients/tjboxing.jpg" 
+        srcset="/images/clients/tjboxing@2x.jpg 2x"
+        alt="Design, Front-end ondersteuning en CMS implementatie tjboxingfranchise.com">
+        <span class="p1-lr block clearfix">
+          <h4 class="m025-b f3 red">TJ Boxing Clubs</h4>
+          <p>Design, Front-end ondersteuning en CMS implementatie</p>
+        </span>
+      </a>
+      <a href="#" class="m3-b block item no-underline gray hover-effect">
+        <img class="m2-b" 
+          src="/images/clients/jorritsmabouw.jpg"
+          srcset="/images/clients/jorritsmabouw@2x.jpg 2x"
+          alt="Front-end ondersteuning en CMS implementatie jorritsmabouw.nl">
+        <span class="p1-lr block clearfix">
+          <h4 class="m025-b f3 red">Jorritsma Bouw</h4>
+          <p>Front-end ondersteuning en CMS implementatie</p>
+        </span>
+      </a>
+      <a href="#" class="m3-b block item no-underline gray hover-effect">
+        <img class="m2-b" 
+          src="/images/clients/fritsvanderwerff.jpg"
+          srcset="/images/clients/fritsvanderwerff@2x.jpg 2x" 
+          alt="Design, Front-end ondersteuning en CMS implementatie fritsvanderwerff.nl">
+        <span class="p1-lr block clearfix">
+          <h4 class="m025-b f3 red">Frits van der Werff</h4>
+          <p>Design, Front-end ondersteuning en CMS implementatie</p>
+        </span>
+      </a>
+    </div>
+  </div>
+  {{ .Content }}
+</article>
+
+{{ end }}
