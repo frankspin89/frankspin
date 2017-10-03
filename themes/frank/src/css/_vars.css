@@ -7,11 +7,11 @@
  * Fonts
  */
 
-  --font-family:  helvetica, "helvetica neue", "arial", ubuntu, roboto,
+  --font-family: 'Roboto', helvetica, "helvetica neue", "arial", roboto,
     noto, "segoe ui", arial, sans-serif;
-  --font-family-heading: helvetica, "helvetica neue", "arial", ubuntu,
+  --font-family-heading: 'Roboto', helvetica, "helvetica neue", "arial", ubuntu,
     roboto, noto, "segoe ui", arial, sans-serif;
-  --font-family-serif: initial;
+  --font-family-serif: 'Merriweather', serif;
 
   --site-width: 86em;
 
