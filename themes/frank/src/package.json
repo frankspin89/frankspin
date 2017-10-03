@@ -29,6 +29,7 @@
     "webpack": "^2.3.3"
   },
   "dependencies": {
-    "copy-webpack-plugin": "^4.1.0"
+    "copy-webpack-plugin": "^4.1.0",
+    "postcss-size": "^2.0.0"
   }
 }
