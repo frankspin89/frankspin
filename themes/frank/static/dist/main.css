@@ -60,7 +60,7 @@ h4,
 h5 {
   font-weight: 500;
   margin: 0 0 1rem 0;
-  line-height: 1.5rem;
+  line-height: 2.5rem;
   font-family: helvetica, "helvetica neue", "arial", ubuntu,
     roboto, noto, "segoe ui", arial, sans-serif;
 }
@@ -377,6 +377,17 @@ img {
   }
   }
 
+.m6-t {
+  margin-top: 3rem
+}
+
+@media (min-width: 46rem) {
+
+  .m6-t {
+    margin-top: 6rem;
+  }
+  }
+
 /* level 10 */
 
 .m10-b {
@@ -497,6 +508,29 @@ img {
   clear: both;
 }
 
+/*
+ * Heights
+ */
+
+.h-large {
+  height: 80vh;
+  max-height: 400px
+}
+
+@media (min-width: 46rem) {
+
+  .h-large {
+    height: 80vh;
+    max-height: 800px;
+  }
+
+  }
+
+.cover {
+  background-size: cover;
+  background-position: top center;
+}
+
 .menu-toggle {
   border: 0;
   background: none;
@@ -532,6 +566,10 @@ img {
   left: 0;
   transform: rotate(0deg);
   transition: 0.25s ease-in-out;
+}
+
+.white #nav-icon span {
+  background: #fff
 }
 
 #nav-icon span:nth-child(1) {
@@ -610,6 +648,10 @@ img {
   }
 
   }
+
+.main-navigation-items.white[aria-expanded="true"] {
+  background-color: #404040
+}
 
 .main-navigation-items[aria-expanded="true"] {
 }

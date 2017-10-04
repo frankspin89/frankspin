@@ -222,6 +222,15 @@
   }
 }
 
+.m6-t {
+  margin-top: 3rem;
+  @media (--breakpoint-small) {
+    margin-top: 6rem;
+  }
+}
+
+
+
 
 /* level 10 */
 
@@ -322,4 +331,23 @@
   content: "";
   display: table;
   clear: both;
+}
+
+/*
+ * Heights
+ */
+
+.h-large {
+  height: 80vh;
+  max-height: 400px;
+  @media (--breakpoint-small) {
+  height: 80vh;
+  max-height: 800px;
+
+  }
+}
+
+.cover {
+  background-size: cover;
+  background-position: top center;
 }

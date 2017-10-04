@@ -1,11 +1,13 @@
+{{$style := .color | default "gray"}}
+
 <nav class="m10-b p3-t main-navigation" id="site-navigation">
-  <a href="{{ .Site.BaseURL }}" rel="home" title="Homepage Frank Spin">
+  <a href="{{ .base }}" rel="home" title="Homepage Frank Spin">
     <svg class="logo">
       <use xlink:href="#logo" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
     </svg>
   </a>
-  {{ if .Site.Menus.main }}
-  <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+  {{ if .menu}}
+  <button class="menu-toggle {{$style}}" aria-controls="primary-menu" aria-expanded="false">
     <div id="nav-icon">
       <span></span>
       <span></span>
@@ -13,10 +15,10 @@
       <span></span>
     </div>
   </button>
-  <ul class="main-navigation-items">
-    {{ range .Site.Menus.main }}
+  <ul class="main-navigation-items {{$style}}">
+    {{ range .menu }}
     <li>
-      <a class="no-underline tracked gray hover-red" href="{{ .URL }}" title="{{ .Name }} page">
+      <a class="no-underline tracked {{$style}} hover-red" href="{{ .URL }}" title="{{ .Name }} page">
         {{ .Name }}
       </a>
     </li>

@@ -31,6 +31,10 @@
   transition: 0.25s ease-in-out;
 }
 
+.white #nav-icon span {
+  background: var(--white)
+}
+
 #nav-icon span:nth-child(1) {
   top: 0px;
 }
@@ -77,6 +81,8 @@
 
 }
 
+
+
 .main-navigation-items {
   list-style: none;
   padding: 0;
@@ -100,6 +106,10 @@
     }
 
   }
+}
+
+.main-navigation-items.white[aria-expanded="true"] {
+  background-color: var(--gray)
 }
 
 .main-navigation-items[aria-expanded="true"] {

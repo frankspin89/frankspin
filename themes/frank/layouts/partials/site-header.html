@@ -1,5 +1,5 @@
 <header class="gray layout p3-lr">
-  {{ partial "site-navigation.html" .}}
+    {{ partial "site-navigation.html"  (dict "color" "gray" "menu" .Site.Menus.main "base" .Site.BaseURL)}}
   <div class="m10-b">
     <h1 class="f-headline l-headline m6-b">
       {{ .Title | default .Site.Title | markdownify }}
