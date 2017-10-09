@@ -4,5 +4,8 @@
     <h1 class="f-headline l-headline m6-b">
       {{ .Title | default .Site.Title | markdownify }}
     </h1>
+     {{ if .Description }}
+     <p class="f4">{{ .Description | markdownify }}</p>
+      {{ end }}
   </div>
 </header>

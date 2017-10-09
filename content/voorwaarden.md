@@ -1,6 +1,7 @@
 ---
 title: Voorwaarden
 weight: 3
+description: Versie 1.0. Laatst gewijzigd op 1 januari 2016
 menu:
   footer:
 ---

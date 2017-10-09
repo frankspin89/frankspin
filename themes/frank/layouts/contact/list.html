@@ -1,0 +1,47 @@
+{{ define "main" }}
+<article>
+  <div class="layout  p3-lr m6-b">
+  	<div class="w-large center">
+      <div class="m3-b">
+        {{ .Content }}
+      </div>
+      
+      <form action="contact" netlify-honeypot="postcode" action="bedankt" netlify class="m6-b block clearfix">
+        <div class="m6-b">
+          <label class="block m1-b f3" for="">Mijn naam is</label>
+          <input  class="form-field" type="text" name="contactpersoon" required placeholder="Voor- en achternaam" />
+        </div>
+        <div class="m6-b">
+          <label class="block m1-b f3" for="">Ik werk voor</label>
+          <input  class="form-field" type="text" name="organisatie" required placeholder="Organisatie of instantie" />
+        </div>
+        <div class="m6-b">
+          <label class="block m1-b f3" for="">Ik zoek hulp bij het volgende project</label>
+          <textarea class="form-field sanserif" name="" id="" cols="30" rows="10" placeholder="Omschrijf je project in paar zinnen"></textarea>
+        </div>
+        <div class="m6-b">
+          <label class="block m1-b f3" for="">De deadline hier voor is</label>
+          <input  class="form-field" type="text" name="deadline" required placeholder="Datum of periode" />
+        </div>
+        <div class="m6-b">
+          <label class="block m1-b f3" for="">Mijn budget is ongeveer</label>
+          <select class="form-field"  name="budget" id="">
+            <option value="#">---</option>
+            <option value="niveau0">Onder de &euro; 5000</option>
+            <option value="niveau1">Tussen &euro; 5000 en &euro; 10.000</option>
+            <option value="niveau2">Tussen &euro; 10.000 en &euro; 20.000</option>
+            <option value="niveau3">Tussen &euro; 20.000 en &euro; 45.000</option>
+            <option value="niveau4">Meer dan &euro; 45.000</option>
+          </select>
+        </div>
+        <div class="m6-b">
+          <label class="block m1-b f3" for="">Je kan mij bereiken op</label>
+          <input  class="form-field" type="email" name="email" required placeholder="Mijn e-mailadres is" />
+        </div>
+        <button class="button f4">Verstuur</button>
+      </form>
+		</div>
+	</div>
+</article>
+
+{{ end }}

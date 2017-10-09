@@ -25,6 +25,7 @@
 *:after,
 *:before {
   box-sizing: border-box;
+  outline: 0;
 }
 
 html {
@@ -410,6 +411,14 @@ img {
   display: flex;
 }
 
+.list-v {
+  font-size: 1.25rem
+}
+
+.list-v li {
+  margin-bottom: 1rem;
+}
+
 .wrap {
   flex-wrap: wrap;
 }
@@ -529,6 +538,22 @@ img {
 .cover {
   background-size: cover;
   background-position: top center;
+}
+
+.form-field {
+  width: 100%;
+  min-height: 3rem;
+  padding: 1rem 0;
+  border: 0;
+  border-bottom: 2px solid #404040;
+  font-size: 1.25rem;
+}
+
+.button {
+  border: 0;
+  color: #fff;
+  background-color: #f54851;
+  cursor: pointer;
 }
 
 .menu-toggle {

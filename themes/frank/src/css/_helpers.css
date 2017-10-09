@@ -250,6 +250,14 @@
   display: flex;
 }
 
+.list-v {
+  font-size: 1.25rem;
+
+  & li {
+    margin-bottom: 1rem;
+  }
+}
+
 .wrap {
   flex-wrap: wrap;
 }
@@ -350,4 +358,20 @@
 .cover {
   background-size: cover;
   background-position: top center;
+}
+
+.form-field {
+  width: 100%;
+  min-height: 3rem;
+  padding: 1rem 0;
+  border: 0;
+  border-bottom: 2px solid var(--gray);
+  font-size: 1.25rem;
+}
+
+.button {
+  border: 0;
+  color: var(--white);
+  background-color: var(--red);
+  cursor: pointer;
 }
