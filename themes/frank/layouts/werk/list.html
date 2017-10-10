@@ -3,18 +3,13 @@
   <div class="layout  p3-lr m6-b">
     
     <div class="grid-fourths">
-      <a href="#" class="bg-gray-light block p3-lr p3-t hover-effect center-center m3-b">
-        <img src="/images/logos/payt-logo.svg" class="m3-b" alt="">
-      </a>
-      <a href="#" class="bg-gray-light p3-lr p3-t hover-effect center-center m3-b">
-        <img src="/images/logos/pixformance-logo.svg" class="m3-b" alt="">
-      </a>
-      <a href="#" class="bg-gray-light p3-lr p3-t hover-effect center-center m3-b">
-        <img src="/images/logos/houseofworkouts-logo.svg" class="m3-b" alt="">
-      </a>
-      <a href="#" class="bg-gray-light p3-lr p3-t hover-effect center-center m3-b">
-        <img src="/images/logos/fritsvanderwerff-logo.svg" class="m3-b" alt="">
-      </a>
+      {{ range (where .Data.Pages "Type" "werk") }}
+        <a href="{{.Permalink}}" class="bg-gray-light block p3-lr p3-t hover-effect center-center m3-b">
+          <img src="{{.Params.logo}}" class="m3-b" alt="">
+        </a>
+      {{ end }}
+
+
       <a href="#" class="bg-gray-light p3-lr p3-t hover-effect center-center m3-b">
         <img src="/images/logos/tjboxingtrainingclubs-logo.svg" class="m3-b" alt="">
       </a>
