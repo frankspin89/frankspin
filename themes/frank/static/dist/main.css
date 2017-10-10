@@ -268,6 +268,10 @@ img {
   background-color: #7e88a7;
 }
 
+.bg-gray-light {
+  background-color: #f7f7f7;
+}
+
 .bg-red {
   background-color: #f54851;
 }
@@ -477,6 +481,44 @@ img {
   }
   }
 
+.grid-fourths {
+}
+
+@media (min-width: 46rem) {
+
+  .grid-fourths {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 3rem;
+  }
+  }
+
+@media (min-width: 75rem) {
+
+  .grid-fourths {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  }
+
+.grid-sixes {
+}
+
+@media (min-width: 46rem) {
+
+  .grid-sixes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 3rem;
+  }
+  }
+
+@media (min-width: 75rem) {
+
+  .grid-sixes {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  }
+
 .block {
   display: block;
 }
@@ -516,6 +558,12 @@ img {
 .center {
   margin-left: auto;
   margin-right: auto;
+}
+
+.center-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .clearfix:after {
@@ -561,6 +609,19 @@ img {
   color: #fff;
   background-color: #f54851;
   cursor: pointer;
+}
+
+.filter-gray {
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /></filter></svg>#filter');
+  filter: grayscale(100%);
+  opacity: .6;
+  transition: .2s all ease-in-out;
+  vertical-align: top;
+}
+
+.filter-gray:hover {
+  filter: none;
+  opacity: 1;
 }
 
 .menu-toggle {
