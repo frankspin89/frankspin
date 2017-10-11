@@ -17,7 +17,10 @@
 }
 
 .f1 {
-  font-size: 3rem;
+  font-size: 2rem;
+  @media (--breakpoint-small) {
+    font-size: 3rem;
+  }
 }
 .f2 {
   font-size: 1.85rem;
@@ -26,13 +29,16 @@
   }
 }
 .f3 {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   @media (--breakpoint-small) {
     font-size: 1.6rem;
   }
 }
 .f4 {
-  font-size: 1.25rem;
+  font-size: 1rem;
+  @media (--breakpoint-small) {
+    font-size: 1.25rem;
+  }
 }
 .f5 {
   font-size: 1rem;
@@ -155,6 +161,11 @@
 
 /* level 3 */
 
+
+.p3-all {
+  padding: 3rem;
+}
+
 .p3-lr {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -165,7 +176,10 @@
 }
 
 .p3-t {
+  padding-top: 1rem;
+  @media (--breakpoint-tiny) {
   padding-top: 3rem;
+  }
 }
 
 
@@ -202,13 +216,19 @@
 /* level 2 */
 
 .m2-b {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  @media (--breakpoint-small) {
+    margin-bottom: 2rem;
+  }
 }
 
 /* level 3 */
 
 .m3-b {
+  margin-bottom: 1rem;
+  @media (--breakpoint-small) {
   margin-bottom: 3rem;
+  }
 }
 
 .m3-l {
@@ -242,7 +262,7 @@
 /* level 10 */
 
 .m10-b {
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
   @media (--breakpoint-small) {
     margin-bottom: 10rem;
   }
@@ -386,8 +406,11 @@
   @media (--breakpoint-small) {
   height: 80vh;
   max-height: 800px;
-
   }
+}
+
+.h-small {
+  min-height: 160px;
 }
 
 .cover {

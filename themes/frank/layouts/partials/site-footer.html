@@ -1,8 +1,8 @@
-<footer class="layout p3-lr p3-t m3-b">
+<footer class="layout p3-lr p3-t">
   <nav class="footer-navigation tracked gray">
-    &copy; {{ now.Format "2006" }} {{ .Site.Title }}
+    <div class="m3-b">&copy; {{ now.Format "2006" }} {{ .Site.Title }}</div>
     {{ if .Site.Menus.main }}
-    <ul class="footer-navigation-items">
+    <ul class="footer-navigation-items m3-b">
       {{ range .Site.Menus.footer }}
       <li>
         <a class="no-underline gray hover-red" href="{{ .URL }}" title="{{ .Name }} page">

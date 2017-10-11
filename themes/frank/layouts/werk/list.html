@@ -3,8 +3,8 @@
   <div class="layout  p3-lr m6-b">
     <div class="grid-fourths">
       {{ range (where .Data.Pages "Type" "werk") }}
-        <a href="{{.Permalink}}" class="bg-gray-light block p3-lr p3-t hover-effect center-center m3-b">
-          <img src="{{.Params.logo}}" class="m3-b" alt="" style="max-height: 90px">
+        <a href="{{.Permalink}}" class="bg-gray-light block p3-all hover-effect center-center m3-b h-small">
+          <img src="{{.Params.logo}}"  alt="" style="max-height: 90px">
         </a>
       {{ end }}
     </div>

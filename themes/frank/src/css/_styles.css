@@ -32,9 +32,12 @@
  */
 
 .footer-navigation {
+  @media (--breakpoint-small) {
   display: flex;
   justify-content: space-between;
   align-items: center;
+    
+  }
 }
 
 .footer-navigation-items {
