@@ -24,7 +24,7 @@ logo: /images/logos/pixformance-logo.svg
  <div class="case center m10-b">
   <img 
     class="block" src="/images/clients/pixformance/pixformance-home.png" 
-    srcset="/images/clients/pixformance-home@2x.png 2x"
+    srcset="/images/clients/pixformance/pixformance-home@2x.png 2x"
     alt="Pixformance">
   </div>
  </div>
@@ -37,7 +37,7 @@ logo: /images/logos/pixformance-logo.svg
  <div class="case center m10-b">
     <img 
     class="block" src="/images/clients/pixformance/pixformance-case.png" 
-    srcset="/images/clients/pixformance-case@2x.png 2x"
+    srcset="/images/clients/pixformance/pixformance-case@2x.png 2x"
     alt="Pixformance">
     </div>
  </div>
@@ -48,7 +48,7 @@ logo: /images/logos/pixformance-logo.svg
   <div class="case center m10-b">
     <img 
     class="block" src="/images/clients/pixformance/pixformance-mobile.png" 
-    srcset="/images/clients/pixformance-mobile@2x.png 2x"
+    srcset="/images/clients/pixformance/pixformance-mobile@2x.png 2x"
     alt="Pixformance">
     </div>
  </div>
@@ -59,7 +59,7 @@ logo: /images/logos/pixformance-logo.svg
  <div class="case center m10-b">
    <img 
     class="block" src="/images/clients/pixformance/pixformance-blog.png" 
-    srcset="/images/clients/pixformance-blog@2x.png 2x"
+    srcset="/images/clients/pixformance/pixformance-blog@2x.png 2x"
     alt="Pixformance">
   </div>  
  </div>
