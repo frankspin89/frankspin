@@ -16,6 +16,7 @@ logo: /images/logos/pixformance-logo.svg
 <div class="layout p3-lr m10-b">
   <div class="w-large center">
     <p>Project omschrijving verschijnt binnenkort </p>
+    <p>In samenwerking met <a href="http://fitbrand.nl/">Fitbrand.nl</a></p>
   </div>
 </div>
 
@@ -30,18 +31,6 @@ logo: /images/logos/pixformance-logo.svg
  </div>
 </div>
 
-<div><img class="block center" src="/images/clients/pixformance/pixformance-case-body.jpg" alt=""></div>
-
-<div class="wrapper bg-gray-light clearfix">
- <div class="layout p3-lr p10-t">
- <div class="case center m10-b">
-    <img 
-    class="block" src="/images/clients/pixformance/pixformance-case.png" 
-    srcset="/images/clients/pixformance/pixformance-case@2x.png 2x"
-    alt="Pixformance">
-    </div>
- </div>
-</div>
 
 <div class="wrapper bg-green clearfix">
  <div class="layout p3-lr p10-t">
@@ -64,3 +53,8 @@ logo: /images/logos/pixformance-logo.svg
   </div>  
  </div>
 </div>
+
+
+
+<div><img class="block center" src="/images/clients/pixformance/pixformance-case-body.jpg" alt=""></div>
+
