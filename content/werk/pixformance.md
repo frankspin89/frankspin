@@ -21,10 +21,12 @@ logo: /images/logos/pixformance-logo.svg
 
 <div class="wrapper bg-gray-light clearfix">
  <div class="layout p3-lr p10-t">
+ <div class="case center m10-b">
   <img 
-    class="block center m10-b case" src="/images/clients/pixformance/pixformance-home.png" 
+    class="block" src="/images/clients/pixformance/pixformance-home.png" 
     srcset="/images/clients/pixformance-home@2x.png 2x"
     alt="Pixformance">
+  </div>
  </div>
 </div>
 
@@ -32,27 +34,33 @@ logo: /images/logos/pixformance-logo.svg
 
 <div class="wrapper bg-gray-light clearfix">
  <div class="layout p3-lr p10-t">
+ <div class="case center m10-b">
     <img 
-    class="block center m10-b case" src="/images/clients/pixformance/pixformance-case.png" 
+    class="block" src="/images/clients/pixformance/pixformance-case.png" 
     srcset="/images/clients/pixformance-case@2x.png 2x"
     alt="Pixformance">
+    </div>
  </div>
 </div>
 
 <div class="wrapper bg-green clearfix">
  <div class="layout p3-lr p10-t">
+  <div class="case center m10-b">
     <img 
-    class="block center m10-b case" src="/images/clients/pixformance/pixformance-mobile.png" 
+    class="block" src="/images/clients/pixformance/pixformance-mobile.png" 
     srcset="/images/clients/pixformance-mobile@2x.png 2x"
     alt="Pixformance">
+    </div>
  </div>
 </div>
 
 <div class="wrapper bg-gray-light clearfix">
  <div class="layout p3-lr m6-b p10-t">
+ <div class="case center m10-b">
    <img 
-    class="block center m10-b case" src="/images/clients/pixformance/pixformance-blog.png" 
+    class="block" src="/images/clients/pixformance/pixformance-blog.png" 
     srcset="/images/clients/pixformance-blog@2x.png 2x"
     alt="Pixformance">
+  </div>  
  </div>
 </div>
