@@ -360,8 +360,15 @@ img {
 }
 
 .p10-t {
-  padding-top: 10rem;
+  padding-top: 3rem
 }
+
+@media (min-width: 30rem) {
+
+  .p10-t {
+    padding-top: 10rem;
+  }
+  }
 
 /*
  * Margin

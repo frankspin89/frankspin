@@ -195,7 +195,10 @@
 
 
 .p10-t {
-  padding-top: 10rem;
+  padding-top: 3rem;
+  @media (--breakpoint-tiny) {
+    padding-top: 10rem;
+  }
 }
 
 
