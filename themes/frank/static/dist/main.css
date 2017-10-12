@@ -298,6 +298,10 @@ img {
   background-color: #362e66;
 }
 
+.bg-green {
+  background-color: #6bdbd1
+}
+
 /* hover colors */
 
 .hover-red:hover {
@@ -353,6 +357,10 @@ img {
 
 .p6-t {
   padding-top: 6rem;
+}
+
+.p10-t {
+  padding-top: 10rem;
 }
 
 /*
@@ -856,7 +864,9 @@ img {
 .footer-navigation-items {
   list-style: none;
   padding: 0;
-  margin: 0
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0
 }
 
 .footer-navigation-items li {
@@ -910,4 +920,8 @@ img {
   display: grid;
   grid-template-columns: 0.45fr 1fr;
   grid-gap: 3rem;
+}
+
+.case {
+  max-width: 1170px;
 }

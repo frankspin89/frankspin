@@ -137,6 +137,10 @@
   background-color: var(--purple);
 }
 
+.bg-green {
+  background-color: var(--green)
+}
+
 /* hover colors */
 
 .hover-red:hover {
@@ -188,6 +192,12 @@
 .p6-t {
   padding-top: 6rem;
 }
+
+
+.p10-t {
+  padding-top: 10rem;
+}
+
 
 /*
  * Margin

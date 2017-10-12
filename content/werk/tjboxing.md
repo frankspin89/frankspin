@@ -7,4 +7,8 @@ description: "**Klant:** TJ Boxing, in opdracht van Fitbrand.<br> **Werkzaamhede
 logo: /images/logos/tjboxingtrainingclubs-logo.svg
 ---
 
-Verschijnt binnenkort 
+<div class="layout  p3-lr m6-b">
+  <div class="w-large center">
+    Verschijnt binnenkort 
+  </div>
+</div>
