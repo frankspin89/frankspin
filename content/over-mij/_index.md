@@ -2,7 +2,7 @@
 featured_image: "/images/frankspin.jpg"
 title: Over mij
 weight: 2
-description: Designer, Developer, Ondernemer en Groninger
+description: Interface ontwerper & front-end developer uit Groningen.
 ---
 
 <h1 class="f1 m3-b">Frank Spin</h2>
