@@ -1,13 +1,9 @@
+ {{ $featured_image := .Params.featured_image }} {{ if $featured_image }} {{/* Trimming the slash and adding absURL make
+sure the image works no matter where our site lives */}} {{ $featured_image := (trim $featured_image "/") | absURL }}
 
-{{ $featured_image := .Params.featured_image }}
-{{ if $featured_image }}
-  {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
-  {{ $featured_image := (trim $featured_image "/") | absURL }}
-
-  <header class="white m10-b h-large cover" style="background-image: url('{{ $featured_image }}');">
-    <div class="layout p3-lr  clearfix">
-    {{ partial "site-navigation.html"  (dict "color" "white" "menu" .Site.Menus.main "base" .Site.BaseURL)}}
+<header class="white m10-b h-large cover" style="background-image: url('{{ $featured_image }}');">
+  <div class="layout p3-lr  clearfix">
+    {{ partial "site-navigation.html" (dict "color" "white" "menu" .Site.Menus.main "base" .Site.BaseURL)}}
   </div>
-  </header>
+</header>
 {{ end }}
-

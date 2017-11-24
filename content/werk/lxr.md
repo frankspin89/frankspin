@@ -5,6 +5,9 @@ title: LXR
 weight: 8
 description: "**Klant:** LXR, in opdracht van Fitbrand.<br> **Werkzaamheden:** Front-end ondersteuning en CMS implementatie<br> **Periode:** Lente 2017"
 logo: /images/logos/lxr-logo.svg
+featured_image: 
+featured_image2x: 
+featured_description:
 ---
 
 <div class="layout  p3-lr m6-b">

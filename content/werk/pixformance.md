@@ -1,5 +1,4 @@
 ---
-featured_image: ""
 tags: []
 title: Pixformance
 weight: 1
@@ -9,6 +8,9 @@ description: "
 **Website:** <a href='https://www.pixformance.com'>https://www.pixformance.com</a><br>
 **Periode:** Herfst 2017"
 logo: /images/logos/pixformance-logo.svg
+featured_image: /images/clients/pixformance.jpg
+featured_image2x: /images/clients/pixformance@2x.jpg
+featured_description: Front-end ondersteuning en CMS implementatie
 ---
 
 <div><img class="m10-b block center" src="/images/clients/pixformance/pixformance-case-header.jpg" alt=""></div>
@@ -30,7 +32,6 @@ logo: /images/logos/pixformance-logo.svg
   </div>
  </div>
 </div>
-
 
 <div class="wrapper bg-green clearfix">
  <div class="layout p3-lr p10-t">
@@ -54,7 +55,4 @@ logo: /images/logos/pixformance-logo.svg
  </div>
 </div>
 
-
-
 <div><img class="block center" src="/images/clients/pixformance/pixformance-case-body.jpg" alt=""></div>
-
