@@ -10,3 +10,4 @@ SectionPagesMenu = "main"
 googleAnalytics = ""
 enableRobotsTXT = true
 background_color_class = "white"
+googleAnalytics = "UA-110086332-1"
