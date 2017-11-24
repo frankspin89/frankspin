@@ -8,6 +8,6 @@ MetaDataFormat = "yaml"
 DefaultContentLanguage = "nl"
 SectionPagesMenu = "main"
 googleAnalytics = ""
-enableRobotsTXT = true
+enableRobotsTXT = false
 background_color_class = "white"
 googleAnalytics = "UA-110086332-1"
