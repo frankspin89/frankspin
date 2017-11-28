@@ -155,6 +155,8 @@
   padding: 0;
 }
 
+
+
 /* level 1 */
 
 .p1-lr {
@@ -202,6 +204,14 @@
 }
 
 
+.p0-lr-small{
+  @media (--breakpoint-mobile-only) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+
 /*
  * Margin
  */
@@ -214,6 +224,12 @@
 
 .m025-b {
   margin-bottom: 0.25rem;
+}
+
+.m0-b-small {
+  @media (--breakpoint-mobile-only) {
+    margin-bottom: 0;
+  }
 }
 
 /* level 1 */

@@ -5,7 +5,7 @@
       {{ range first 6 (where .Data.Pages "Type" "werk") }}
       <a href="{{.Permalink}}" class="m6-b block item no-underline gray hover-effect">
         <img class="m1-b" src="{{.Params.featured_image}}" srcset="{{.Params.featured_image2x}} 2x" alt="{{.Params.featured_description}} - {{.Title}}">
-        <span class="p1-lr block clearfix">
+        <span class="p1-lr p0-lr-small block clearfix">
           <h4 class="m025-b f3 red">{{.Title}}</h4>
           <p>{{.Params.featured_description}}</p>
         </span>
