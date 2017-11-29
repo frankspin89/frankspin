@@ -138,6 +138,15 @@
 .bg-yellow {
   background-color: var(--yellow);
 }
+
+.bg-jorritsma-yellow {
+  background-color: #f5c723;
+}
+
+.bg-tjboxing-red {
+  background-color: #d0021b;
+}
+
 .bg-purple {
   background-color: var(--purple);
 }
