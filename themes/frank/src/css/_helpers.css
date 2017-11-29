@@ -130,6 +130,11 @@
 .bg-red {
   background-color: var(--red);
 }
+
+.bg-frits-red {
+  background-color: #cd202c;
+}
+
 .bg-yellow {
   background-color: var(--yellow);
 }
@@ -223,6 +228,10 @@
 }
 
 .m025-b {
+  margin-bottom: 0.25rem;
+}
+
+.m05-b {
   margin-bottom: 0.25rem;
 }
 
@@ -454,6 +463,7 @@
   border: 0;
   border-bottom: 2px solid var(--gray);
   font-size: 1.25rem;
+  border-radius: 0;
 }
 
 .button {

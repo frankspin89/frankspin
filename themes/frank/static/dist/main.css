@@ -290,6 +290,10 @@ img {
   background-color: #f54851;
 }
 
+.bg-frits-red {
+  background-color: #cd202c;
+}
+
 .bg-yellow {
   background-color: #f5c723;
 }
@@ -392,6 +396,10 @@ img {
 }
 
 .m025-b {
+  margin-bottom: 0.25rem;
+}
+
+.m05-b {
   margin-bottom: 0.25rem;
 }
 
@@ -680,6 +688,7 @@ img {
   border: 0;
   border-bottom: 2px solid #404040;
   font-size: 1.25rem;
+  border-radius: 0;
 }
 
 .button {
@@ -864,19 +873,28 @@ img {
 }
 
 /*
- * Site header
+ * Site heade
  */
 
 .logo {
-  height: 64px;
-  width: 64px;
+  height: 48px;
+  width: 48px
 }
+
+@media (min-width: 46rem) {
+
+  .logo {
+    height: 64px;
+    width: 64px;
+  }
+  }
 
 /*
  * Footer
  */
 
 .footer-navigation {
+  font-size: 90%
 }
 
 @media (min-width: 46rem) {
@@ -885,6 +903,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 100%;
   }
     
   }

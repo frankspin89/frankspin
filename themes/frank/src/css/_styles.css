@@ -17,12 +17,16 @@
 }
 
 /*
- * Site header
+ * Site heade
  */
 
 .logo {
-  height: 64px;
-  width: 64px;
+  height: 48px;
+  width: 48px;
+  @media (--breakpoint-small) {
+    height: 64px;
+    width: 64px;
+  }
 }
 
 
@@ -32,10 +36,12 @@
  */
 
 .footer-navigation {
+  font-size: 90%;
   @media (--breakpoint-small) {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 100%;
     
   }
 }
