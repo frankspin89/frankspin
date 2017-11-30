@@ -13,14 +13,8 @@ featured_image2x: /images/clients/houseofworkouts@2x.jpg
 featured_description: Design en Front-end ondersteuning
 ---
 
-<div><img class="m10-b block center" src="/images/clients/how/how-case-header.jpg" alt=""></div>
 
-<div class="layout p3-lr m10-b">
-  <div class="w-large center">
-    <p>Project omschrijving verschijnt binnenkort </p>
-    <p>In samenwerking met <a href="http://fitbrand.nl/">Fitbrand.nl</a></p>
-  </div>
-</div>
+
 
 <div class="wrapper bg-gray-light clearfix">
  <div class="layout p3-lr p10-t">
@@ -31,6 +25,14 @@ featured_description: Design en Front-end ondersteuning
     alt="how">
   </div>
  </div>
+</div>
+
+<div class="layout p10-t p3-lr m10-b">
+  <div class="w-large">
+    <h2 class="f2 m2-b">Werkzaamheden</h2>
+    <p>Project omschrijving verschijnt binnenkort </p>
+    <p>In samenwerking met <a href="http://fitbrand.nl/">Fitbrand.nl</a></p>
+  </div>
 </div>
 
 <div class="wrapper bg-how-yellow clearfix">
@@ -54,5 +56,3 @@ featured_description: Design en Front-end ondersteuning
     </div>
  </div>
 </div>
-
-<div><img class="block center" src="/images/clients/how/how-case-body.jpg" alt=""></div>

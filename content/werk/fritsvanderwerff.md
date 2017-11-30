@@ -14,14 +14,6 @@ featured_image2x: /images/clients/fritsvanderwerff@2x.jpg
 featured_description: Design, Front-end ondersteuning en CMS implementatie
 ---
 
-<div><img class="m10-b block center" src="/images/clients/frits/frits-case-header.jpg" alt=""></div>
-
-<div class="layout p3-lr m10-b">
-  <div class="w-large center">
-    <p>Project omschrijving verschijnt binnenkort </p>
-    <p>In samenwerking met <a href="http://fitbrand.nl/">Fitbrand.nl</a></p>
-  </div>
-</div>
 
 <div class="wrapper bg-gray-light clearfix">
  <div class="layout p3-lr p10-t">
@@ -31,6 +23,15 @@ featured_description: Design, Front-end ondersteuning en CMS implementatie
   </div>
  </div>
 </div>
+
+<div class="layout p10-t p3-lr m10-b">
+  <div class="w-large">
+    <h2 class="f2 m2-b">Werkzaamheden</h2>
+    <p>Project omschrijving verschijnt binnenkort </p>
+    <p>In samenwerking met <a href="http://fitbrand.nl/">Fitbrand.nl</a></p>
+  </div>
+</div>
+
 
 <div class="wrapper bg-frits-red clearfix">
  <div class="layout p3-lr p10-t">

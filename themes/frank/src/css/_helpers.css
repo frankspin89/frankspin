@@ -308,6 +308,13 @@
 
 /* level 10 */
 
+.m8-b {
+  margin-bottom: 3rem;
+  @media (--breakpoint-small) {
+    margin-bottom: 8rem;
+  }
+}
+
 .m10-b {
   margin-bottom: 3rem;
   @media (--breakpoint-small) {

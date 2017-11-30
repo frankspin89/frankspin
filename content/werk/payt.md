@@ -14,10 +14,9 @@ featured_image2x: /images/clients/payt-fcgroningen@2x.jpg
 featured_description: Front-end ondersteuning en CMS implementatie
 ---
 
-<div><img class="m10-b block center" src="/images/clients/payt/payt-case-header.jpg" alt=""></div>
-
-<div class="layout p3-lr m10-b">
-  <div class="w-large center">
+<div class="layout p10-t p3-lr m10-b">
+  <div class="w-large">
+    <h2 class="f2 m2-b">Werkzaamheden</h2>
     <p>Project omschrijving verschijnt binnenkort </p>
   </div>
 </div>
