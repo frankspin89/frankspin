@@ -131,6 +131,10 @@
   background-color: var(--red);
 }
 
+.bg-payt-red {
+  background-color: #ee3632;
+}
+
 .bg-frits-red {
   background-color: #cd202c;
 }
