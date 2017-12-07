@@ -247,6 +247,9 @@
 .m0 {
   margin: 0;
 }
+.m0-b {
+  margin-bottom: 0;
+}
 
 .m025-b {
   margin-bottom: 0.25rem;
