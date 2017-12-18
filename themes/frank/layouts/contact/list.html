@@ -6,7 +6,9 @@
         {{ .Content }}
       </div>
 
-      <form action="contact" netlify-honeypot="postcode" action="bedankt" netlify class="m6-b block clearfix">
+      <form method="POST" action="http://formspree.io/info@frankspin.nl" action="bedankt" netlify class="m6-b block clearfix">
+        <input type="hidden" name="_next" value="//www.frankspin.nl/bedankt/" />
+        <input type="text" name="_gotcha" style="display:none" />
         <div class="m6-b">
           <label class="block m05-b f3" for="">Mijn naam is</label>
           <input class="form-field" type="text" name="contactpersoon" required placeholder="Voor- en achternaam" />
